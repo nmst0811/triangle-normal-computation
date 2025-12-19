@@ -1,7 +1,7 @@
 import csv
 import random
 
-N = 100000 # データ数
+N = 1000000 # データ数
 
 with open("data.csv", "w", newline="") as f:
     writer = csv.writer(f)
